@@ -1,0 +1,127 @@
+body {
+  background-color: #fff;
+  height: 100vh;
+  font-family: "Space Mono", monospace;
+}
+.body_layout {
+  display: flex;
+  flex-direction: column;
+}
+
+header h2 {
+  padding-top: 40px;
+  padding-left: 77px;
+  margin-bottom: 200px;
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main_layout {
+  flex: 1;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.img_container {
+  max-width: 500px;
+  margin-right: 80px;
+}
+.img_container img {
+  width: 100%;
+}
+.content_container {
+  max-width: 586px;
+}
+.content_tit {
+  color: #333;
+  font-family: Space Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+
+.content_desc {
+  max-width: 381px;
+  margin-top: 36px;
+  margin-bottom: 64px;
+  color: #4f4f4f;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+
+.btn {
+  width: 216px;
+  height: 68px;
+  background-color: #333;
+  padding: 24px 43px 23px 43px;
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.footer {
+  padding-bottom: 24px;
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: default;
+}
+.footer a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  header h2 {
+    padding-left: 24px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content_tit {
+    max-width: 350px;
+    margin-top: 77px;
+    font-size: 48px;
+    letter-spacing: -1.68px;
+  }
+  .content_desc {
+    max-width: 328px;
+    margin-top: 30px;
+    margin-bottom: 66px;
+    font-size: 18px;
+    letter-spacing: -0.63px;
+  }
+  .img_container {
+    max-width: 375px;
+    margin-right: 0;
+  }
+  footer {
+    margin-top: 114px;
+  }
+}
