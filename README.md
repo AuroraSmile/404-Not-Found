@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://aurorasmile.github.io/404-Not-Found/">
+    <a href="https://aurorasmile.github.io/challenges-404-Not-Found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/AuroraSmile/404-Not-Found">
+    <a href="https://github.com/AuroraSmile/challenges-404-Not-Found">
       Solution
     </a>
     <span> | </span>
